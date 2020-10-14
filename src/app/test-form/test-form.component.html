@@ -1,0 +1,7 @@
+<p>test-form works!</p>
+
+
+<form [formGroup]="form" (ngSubmit)="onSubmit($event)" style="width: 500px">
+  <input type="text" formControlName="name"/>
+  <button type="submit">Submit</button>
+</form>
